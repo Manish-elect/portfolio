@@ -1,1 +1,47 @@
 /* lets code for styling */
+body{
+    padding:0px;
+    margin:0px;
+}
+
+.home-page{
+  background-color: #008891;
+  margin:0px;
+}
+
+.text-div-home-page{
+    color:white;
+    margin: 20% 0% 25% 20%;
+}
+
+.text-div-home-page>button{
+    width:150px;
+    margin-top:20px;
+}
+.img-home-page{
+    width:100%;
+    float:right;
+    padding:60px;
+    padding-top:20%;
+}
+
+@media (max-width:767px) and (min-width:300px)
+{
+    .home-page{
+        /* background-image: url("https://images.unsplash.com/photo-1493946947703-a0e68b050bee?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzJ8fHdlYnNpdGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"); */
+        padding:150px 0px;
+        
+    }
+
+    .text-div-home-page{
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .img-home-page{
+        display: none;
+    }
+
+}
