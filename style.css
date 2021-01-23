@@ -4,6 +4,25 @@ body{
     margin:0px;
 }
 
+/* Section Navbar */
+
+.navbar{
+    background-color: #23689b;
+}
+
+.navbar-toggler{
+    outline: none !important;
+    border-color: #f4f5db !important;
+}
+
+.nav-link{
+    color: #f4f5db !important;
+}
+
+
+
+/* Section Home Page */
+
 .home-page{
   background-color: #008891;
   margin:0px;
@@ -43,4 +62,34 @@ body{
         display: none;
     }
 
+}
+
+
+/* section Profiles */
+
+.profile-heading{
+    color: #493323;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.row{
+    margin: 0;
+}
+.profile-card{
+    text-align: -webkit-center;
+}
+.card{
+    width: 18rem;
+}
+
+.card-img-top{
+    height: 200px;
+}
+
+@media screen and (max-width: 768px){
+    .manish-profile{
+        margin-bottom: 40px;
+    }
 }
