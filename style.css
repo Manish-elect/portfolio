@@ -138,7 +138,9 @@ padding:50px 0px;
 
 
 /* Section About US */
-
+#about-us{
+    height: 30px;
+}
 .about-us{
     margin-top: 40px;
 }
