@@ -10,18 +10,19 @@ body{
 /* Section Navbar */
 
 .navbar{
-    background-color: #23689b;
+    background-color: #141313dc;
 }
 
 .navbar-toggler{
     outline: none !important;
-    border-color: #f4f5db !important;
+    background-color: #008891;
+    border-color: white !important;
 }
 .nav-item{
     padding: 0 20px;
 }
 .nav-link{
-    color: #f4f5db !important;
+    color: #ffffff !important;
 }
 
 @media screen and (max-width: 991px){
@@ -34,6 +35,7 @@ body{
 
 .home-page{
   background-color: #008891;
+  margin-top: 56.25px !important;
   margin:0px;
 }
 
@@ -135,6 +137,22 @@ padding:50px 0px;
 .skill-div:hover{
    border: 1px solid white;
 }
+
+#jquery-img{    
+    width:250px;
+    height:133px;
+    margin-top:-64px;  /*image is diverted so we did this line code*/
+    padding:10px;
+}
+
+@media (max-width:543px)
+{
+    #jquery-img{
+        margin-top:10px;
+    }
+}
+
+
 
 
 /* Section About US */
