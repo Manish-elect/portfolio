@@ -7,6 +7,18 @@ body{
     margin:0px;
 }
 
+/* Section Preloading */
+.loading{
+    background: url("./Images/0_4Gzjgh9Y7Gu8KEtZ.gif");
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 9999;
+}
+
 /* Section Navbar */
 
 .navbar{
