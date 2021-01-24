@@ -130,3 +130,42 @@ padding:40px 0px;
     padding:5px 10px;
     margin:5px;
 }
+
+
+/* Section About US */
+
+.about-us{
+    margin-top: 40px;
+}
+.about-us-heading{
+    text-align: end;
+}
+.about-us-heading span{
+    padding-right: 15px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.about-us-heading hr{
+    border: none;
+    border-top: 2px solid;
+    width: 70%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 5%;
+}
+.about-us img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .about-us-heading span{
+        display: block;
+        text-align: center;
+    }
+    .about-us .row{
+        display: inline-flex;
+    }
+  .about-us-heading hr{
+        margin-right: 17%;
+    }
+}
