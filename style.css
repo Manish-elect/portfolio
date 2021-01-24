@@ -129,37 +129,43 @@ padding:50px 0px;
     width:250px;
     padding:5px 10px;
     margin:5px;
-    transition:0.5s;
-}
-
-.skill-div>p{
-    color:white;
-}
-
-.skill-div:hover{
-    border: 1px solid white;  
 }
 
 
-/* project-section */
-.project-section{
- text-align: center;
- padding:50px 0px;
+/* Section About US */
+
+.about-us{
+    margin-top: 40px;
+}
+.about-us-heading{
+    text-align: end;
+}
+.about-us-heading span{
+    padding-right: 15px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.about-us-heading hr{
+    border: none;
+    border-top: 2px solid;
+    width: 70%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 5%;
+}
+.about-us img{
+    width: 100%;
 }
 
-.project-div{
-    display: inline-block;
-    text-align: center;
-    box-shadow: 0px 0px 1px #008891;
-    border-radius: 2px;
-    margin:30px;
-    padding:20px;
-    width:200px;
-    transition: 1s;
-}
-
-.project-div:hover{
-    /* transition: 1s; */
-    border-radius: 5px;
-    box-shadow: 0px 0px 15px #a1b9bb;
+@media screen and (max-width: 768px){
+    .about-us-heading span{
+        display: block;
+        text-align: center;
+    }
+    .about-us .row{
+        display: inline-flex;
+    }
+  .about-us-heading hr{
+        margin-right: 17%;
+    }
 }
