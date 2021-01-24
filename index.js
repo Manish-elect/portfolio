@@ -1,14 +1,14 @@
 if($(window).width() < 991){
-    $("#home,#about-us,#skill,#projects").attr("data-toggle","collapse")
+   $("#nav-home,#nav-profile,#nav-skill,#nav-about-us,#nav-projects").attr("data-toggle","collapse")
 }
 
- $(window).on('resize', function(){
-    var win = $(this);
-    if (win.width() <= 991) { 
-        $("#home,#about-us,#skill,#projects").attr("data-toggle","collapse")
-     }
-     
-     else{
-        $("#home,#about-us,#skill,#projects").removeAttr("data-toggle")
-     }
+$(window).on('resize', function(){
+   var win = $(this);
+   if (win.width() <= 991) { 
+       $("#nav-home,#nav-profile,#nav-skill,#nav-about-us,#nav-projects").attr("data-toggle","collapse")
+    }
+    
+    else{
+       $("#nav-home,#nav-profile,#nav-skill,#nav-about-us,#nav-projects").removeAttr("data-toggle")
+    }
 });
