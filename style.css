@@ -10,12 +10,12 @@ body{
 /* Section Navbar */
 
 .navbar{
-    background-color: #1413136b;
+    background-color: #141313dc;
 }
 
 .navbar-toggler{
     outline: none !important;
-    background-color: #008891;
+    background-color: white;
     border-color: white !important;
 }
 .nav-item{
@@ -126,7 +126,7 @@ padding:50px 0px;
     /* background-color:; */
     text-align: center;
     display: inline-block;
-    border: 1px solid rgba(0, 0, 0, 0.246);
+
     border-radius: 5px;
     width:250px;
     padding:5px 10px;
@@ -134,9 +134,7 @@ padding:50px 0px;
     transition:0.5s;
 }
 
-.skill-div:hover{
-   border: 1px solid white;
-}
+
 
 #jquery-img{    
     width:250px;
