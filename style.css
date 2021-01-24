@@ -27,7 +27,7 @@ body{
 
 .navbar-toggler{
     outline: none !important;
-    background-color: #008891;
+    background-color: white;
     border-color: white !important;
 }
 .nav-item{
@@ -138,7 +138,7 @@ padding:50px 0px;
     /* background-color:; */
     text-align: center;
     display: inline-block;
-    border: 1px solid rgba(0, 0, 0, 0.246);
+
     border-radius: 5px;
     width:250px;
     padding:5px 10px;
@@ -146,9 +146,7 @@ padding:50px 0px;
     transition:0.5s;
 }
 
-.skill-div:hover{
-   border: 1px solid white;
-}
+
 
 #jquery-img{    
     width:250px;
@@ -220,20 +218,31 @@ padding:50px 0px;
     .project-div{
         display: inline-block;
         text-align: center;
-        box-shadow: 0px 0px 1px #008891;
+        border:1px solid gainsboro;
         border-radius: 2px;
         margin:30px;
         padding:20px;
         width:200px;
-        transition: 1s;
+        transition: 0.5s;
     }
 
-    .project-div h6{
-        text-decoration: underline;
+    .project-div> p{
+   color: rgb(44, 41, 41);
+    }
+
+    .project-div>h6{
+        color: hotpink;
     }
 
     .project-div:hover{
         /* transition: 1s; */
         border-radius: 5px;
-        box-shadow: 0px 0px 15px #a1b9bb;
+        box-shadow: 0px 0px 15px #b3b1b1b0;
+    }
+
+    @media screen and (max-width: 550px)
+    {
+      .project-div{
+        width:250px;
+      }
     }
