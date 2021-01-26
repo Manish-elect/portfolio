@@ -1,3 +1,7 @@
+function closeLoading(){
+   $("#loading").css("display" , "none")
+}
+
 if($(window).width() < 991){
    $("#nav-home,#nav-profile,#nav-skill,#nav-about-us,#nav-projects").attr("data-toggle","collapse")
 }

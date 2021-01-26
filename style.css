@@ -7,6 +7,18 @@ body{
     margin:0px;
 }
 
+/* Section Preloading */
+.loading{
+    background: url("./Images/0_4Gzjgh9Y7Gu8KEtZ.gif");
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 9999;
+}
+
 /* Section Navbar */
 
 .navbar{
@@ -76,133 +88,15 @@ body{
 }
 
 
-/* section Profiles */
-#profile{
-    height: 50px;
-}
-.profile-heading{
-    text-align: center;
-    color: #493323;
-    font-size: 60px;
-    margin:40px 0px;
-}
-
-.row{
-    margin: 0;
-}
-.profile-card{
-    text-align: -webkit-center;
-    margin-bottom: 100px;
-}
-.card{
-    width: 18rem;
-}
-
-.card-img-top{
-    height: 200px;
-}
-
-@media screen and (max-width: 768px){
-    .manish-profile{
-        margin-bottom: 40px;
-    }
-}
-
-
-
-/* skill section */
-.skill-section{
-background-color: #008891;
-text-align: center;
-padding:50px 0px;
-}
-
-.skill-section>h1{
-    color:white;
-    margin-bottom: 50px;
-}
-
-.skill-div{
-    /* background-color:; */
-    text-align: center;
-    display: inline-block;
-
-    border-radius: 5px;
-    width:250px;
-    padding:5px 10px;
-    margin:5px;
-    transition:0.5s;
-}
-
-
-
-#jquery-img{    
-    width:250px;
-    height:133px;
-    margin-top:-64px;  /*image is diverted so we did this line code*/
-    padding:10px;
-}
-
-@media (max-width:543px)
-{
-    #jquery-img{
-        margin-top:10px;
-    }
-}
-
-
-
-
-/* Section About US */
-#about-us{
-    height: 40px;
-}
-.about-us{
-    margin-top: 40px;
-}
-.about-us-heading{
-    text-align: end;
-}
-.about-us-heading span{
-    padding-right: 15px;
-    font-size: 35px;
-    font-weight: 600;
-}
-.about-us-heading hr{
-    border: none;
-    border-top: 2px solid;
-    width: 70%;
-    float: right;
-    margin-top: 30px;
-    margin-right: 5%;
-}
-
-.about-us img{
-    width: 100%;
-}
-
-@media screen and (max-width: 768px){
-    .about-us-heading span{
-        display: block;
-        text-align: center;
-    }
-    .about-us .row{
-        display: inline-flex;
-    }
-  .about-us-heading hr{
-        margin-right: 17%;
-    }
-}
-
-
-
 /* project section */
 
-    .project-section{
+.project-section{
     text-align: center;
     padding:50px 0px;
     }
-
+.project-section h1{
+    font-family: Poppins;
+}
     .project-div{
         display: inline-block;
         text-align: center;
@@ -234,3 +128,124 @@ padding:50px 0px;
         width:250px;
       }
     }
+
+/* Section About US */
+
+#about-us{
+    height: 40px;
+}
+.about-us{
+    margin-top: 40px;
+}
+.about-us-heading{
+    text-align: end;
+}
+.about-us-heading span{
+    padding-right: 15px;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+}
+.about-us-heading hr{
+    border: none;
+    border-top: 2px solid;
+    width: 70%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 5%;
+}
+
+.about-us img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .about-us-heading span{
+        display: block;
+        text-align: center;
+    }
+    .about-us .row{
+        display: inline-flex;
+    }
+  .about-us-heading hr{
+        margin-right: 17%;
+    }
+}
+
+
+/* skill section */
+
+.skill-section{
+background-color: #008891;
+text-align: center;
+padding:50px 0px;
+}
+
+.skill-section>h1{
+    color:white;
+    margin-bottom: 50px;
+    font-family: Poppins;
+}
+
+.skill-div{
+    /* background-color:; */
+    text-align: center;
+    display: inline-block;
+
+    border-radius: 5px;
+    width:250px;
+    padding:5px 10px;
+    margin:5px;
+    transition:0.5s;
+}
+
+
+
+#jquery-img{    
+    width:250px;
+    height:133px;
+    margin-top:-64px;  /*image is diverted so we did this line code*/
+    padding:10px;
+}
+
+@media (max-width:543px)
+{
+    #jquery-img{
+        margin-top:10px;
+    }
+}
+
+/* section Profiles */
+
+#profile{
+    height: 50px;
+}
+.profile-heading{
+    text-align: center;
+    color: #493323;
+    font-family: Poppins;
+    font-size: 60px;
+    margin:40px 0px;
+}
+
+.row{
+    margin: 0;
+}
+.profile-card{
+    text-align: -webkit-center;
+    margin-bottom: 100px;
+}
+.card{
+    width: 18rem;
+}
+
+.card-img-top{
+    height: 200px;
+}
+
+@media screen and (max-width: 768px){
+    .manish-profile{
+        margin-bottom: 40px;
+    }
+}
+
