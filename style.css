@@ -10,7 +10,7 @@ body{
 /* Section Navbar */
 
 .navbar{
-    background-color: #141313dc;
+    background-color: #1a1919dc;
 }
 
 .navbar-toggler{
@@ -61,7 +61,7 @@ body{
         /* background-image: url("https://images.unsplash.com/photo-1493946947703-a0e68b050bee?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzJ8fHdlYnNpdGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"); */
         padding:150px 0px;
         
-    }
+}
 
     
     .text-div-home-page{
