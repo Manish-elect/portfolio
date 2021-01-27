@@ -175,6 +175,12 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.highlight{
+    color: #0d335d;
+    font-size: larger;
+    font-weight: 800;
+}
+
 @media screen and (max-width: 768px){
     .about-us-heading span{
         display: block;
@@ -271,6 +277,7 @@ padding:50px 0px;
 }
 .card{
     width: 18rem;
+    border: 2px solid #493323;
 }
 
 .card-img-top{
