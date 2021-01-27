@@ -108,13 +108,15 @@ body{
     text-align: center;
     padding:50px 0px;
     }
+
 .project-section h1{
     
 }
+
     .project-div{
         display: inline-block;
         text-align: center;
-        border:1px solid gainsboro;
+        border:1px solid #035aa6;
         border-radius: 2px;
         margin:30px;
         padding:20px;
@@ -277,7 +279,7 @@ padding:50px 0px;
 }
 .card{
     width: 18rem;
-    border: 2px solid #493323;
+    border: 1.3px solid #40bad5;
 }
 
 .card-img-top{
