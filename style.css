@@ -7,6 +7,11 @@ body{
     margin:0px;
 }
 
+/* general class */
+.heading-font{
+    font-family: Poppins;
+}
+
 /* Section Preloading */
 .loading{
     background: url("./Images/0_4Gzjgh9Y7Gu8KEtZ.gif");
@@ -22,7 +27,7 @@ body{
 /* Section Navbar */
 
 .navbar{
-    background-color: #141313dc;
+    background-color: #1a1919dc;
 }
 
 .navbar-toggler{
@@ -35,6 +40,8 @@ body{
 }
 .nav-link{
     color: #ffffff !important;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 @media screen and (max-width: 991px){
@@ -52,6 +59,7 @@ body{
 }
 
 .text-div-home-page{
+    font-family: 'Source Sans Pro', sans-serif;
     color:white;
     margin: 20% 0% 25% 20%;
 }
@@ -61,6 +69,7 @@ body{
     margin-top:20px;
 }
 .img-home-page{
+    font-family: 'Source Sans Pro', sans-serif;
     width:100%;
     float:right;
     padding:60px;
@@ -73,7 +82,7 @@ body{
         /* background-image: url("https://images.unsplash.com/photo-1493946947703-a0e68b050bee?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzJ8fHdlYnNpdGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"); */
         padding:150px 0px;
         
-    }
+}
 
     
     .text-div-home-page{
@@ -89,13 +98,18 @@ body{
 
 
 /* project section */
+#profile{
+    display: block;
+    margin:auto;
+    width:80%;
+}
 
 .project-section{
     text-align: center;
     padding:50px 0px;
     }
 .project-section h1{
-    font-family: Poppins;
+    
 }
     .project-div{
         display: inline-block;
@@ -106,14 +120,12 @@ body{
         padding:20px;
         width:200px;
         transition: 0.5s;
-    }
-
-    .project-div> p{
-   color: rgb(44, 41, 41);
-    }
-
-    .project-div>h6{
+    }  
+     
+     .project-div>h6{
         color: hotpink;
+        font-family: 'Source Sans Pro', sans-serif;
+        
     }
 
     .project-div:hover{
@@ -142,7 +154,7 @@ body{
 }
 .about-us-heading span{
     padding-right: 15px;
-    font-family: Poppins;
+
     font-size: 35px;
     font-weight: 600;
 }
@@ -159,6 +171,10 @@ body{
     width: 100%;
 }
 
+.text-box-about{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 @media screen and (max-width: 768px){
     .about-us-heading span{
         display: block;
@@ -169,6 +185,20 @@ body{
     }
   .about-us-heading hr{
         margin-right: 17%;
+    }
+}
+
+@media (max-width:575px)
+{
+    .about-us img{
+        display: block;
+        margin:auto;
+        width:50%;
+    }
+    .text-box-about{
+        display: block;
+        margin:auto;
+        width:85%;
     }
 }
 
@@ -184,7 +214,7 @@ padding:50px 0px;
 .skill-section>h1{
     color:white;
     margin-bottom: 50px;
-    font-family: Poppins;
+
 }
 
 .skill-div{
@@ -199,6 +229,10 @@ padding:50px 0px;
     transition:0.5s;
 }
 
+.skill-div>p{
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 
 #jquery-img{    
@@ -220,11 +254,11 @@ padding:50px 0px;
 #profile{
     height: 50px;
 }
-.profile-heading{
+.profile-heading>h1{
     text-align: center;
     color: #493323;
-    font-family: Poppins;
-    font-size: 60px;
+
+    font-size: 45px;
     margin:40px 0px;
 }
 
@@ -244,8 +278,12 @@ padding:50px 0px;
 }
 
 @media screen and (max-width: 768px){
+    #profile{
+        width:100%;
+    }
     .manish-profile{
         margin-bottom: 40px;
     }
 }
+
 
